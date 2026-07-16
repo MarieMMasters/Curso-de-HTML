@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Carta de Presentacion</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="encabezado">
+            <h1>Kelvin Jair Zacarias Candray</h1>
+            <p>Soy una persona que despues de mucho tiempo, mas del necesario a aprendio a valorar las cosas, las amistades
+            el precio y apoyo de todas las personas que lo rodean que quieren que este sea mejor. Soy estudiante de ingenieria
+            en sistemas informaticos, actualmente llevo 2 years en la carrera y estoy entrando a nuevas materias
+            </P>
+        </header>
+        <nav>
+            <h2 style="color: aliceblue;">Indice</h2>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Educacion</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <main>
+            <section>
+                <h2>Sobre mi</h2>
+                <h3>Descripcion:</h3>
+                <P>
+                    Vivo en mexicanos san salvador, soy estudiante en la universidad de el salvador, actualmente llevo 2 years dentro
+                    Al igual llevo dos trabajos paralelos a mis estudios, soy vendedor en una tienda y llevo el registro de 
+                    entradas de una empresa.
+                </P>
+                <P>
+                    Me encanta la musica, considero que es el mejor arte que ha creado el ser humano.
+                </P>
+            </section>
+            <section>
+                <h2>Mis Habilidades</h2>
+                <ul class="habiliades">
+                    <li>Tocar Guitarra</li>
+                    <li>Buen linder</li>
+                    <li>Orador promedio</li>
+                    <li>Conocimientos en Java</li>
+                    <li>Conocimientos en Bases de Datos</li>
+                    <li>Manejo automobiles</li>
+                </ul>
+            </section>
+            <section>
+                <ol>
+                    <li>Pasar las materias</li>
+                    <li>Mejorar mis notas</li>
+                    <li>Estudiar Diariamente</li>
+                    <li>Mejorar como persona</li>
+                    <li>Mejorar mi ingles</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Tecnologias que conosco</h2>
+                <table border="2" class="tabla">
+                    <tr>
+                        <th>Tecnologia</th>
+                        <th>Nivel</th>
+                        <th>Experiencia</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Intermedio</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Bajo</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>Alto</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Intermedio</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>Git</td>
+                        <td>Bajo</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Multimedia</h2>
+
+                <h4>Mi foto</h4>
+                <img class="perfil" src="IMG/1138740.png" alt="Imagen de un hombre viendo a la camara" >
+
+                <h4>Mi cancion favorita</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ko24BZXdK8c?si=k9SAC_8JBGAlwL4D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             
+                <h4>Cancion favorita</h4>
+                <audio controls>
+                    <source src="musica/La_Cancion.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+                <br>
+
+                <h4>Video favorito</h4>
+                <video width="320" height="240" controls>
+                    <source src="videos/video.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.    
+                </video>
+            </section>
+            <section>
+                <h2>Formulario de Contacto</h2>
+                <form class="contacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="Asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto"><br><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje"></textarea><br><br>
+                    <label for="Motivo">Motivo del contacto:</label>
+                    <div>
+                            <input type="radio" id="consulta" name="motivo" value="consulta">
+                            <label for="consulta">Consulta</label>
+                       
+                            <input type="radio" id="sugerencia" name="motivo" value="sugerencia">
+                            <label for="sugerencia">Sugerencia</label>
+                        
+                            <input type="radio" id="reclamo" name="motivo" value="reclamo">
+                            <label for="reclamo">Reclamo</label>
+                    </div>
+                    <label>Intereses:</label>
+                    <div>
+                            <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+                            <label for="tecnologia">Tecnologia</label>
+                        
+                            <input type="checkbox" id="musica" name="intereses" value="musica">
+                            <label for="musica">Musica</label>
+                       
+                            <input type="checkbox" id="deportes" name="intereses" value="deportes">
+                            <label for="deportes">Deportes</label>
+                    </div>
+                    <br>
+                    <label>Que dia lo solicita:</label>
+                    <select id="dia" name="dia">
+                        <option value="lunes">Lunes</option>
+                        <option value="martes">Martes</option>
+                        <option value="miercoles">Miercoles</option>
+                        <option value="jueves">Jueves</option>
+                        <option value="viernes">Viernes</option>
+                    </select>
+                    <input type="submit" class="boton" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>2026 Kelvin Jair Zacarias Candray. Todos los derechos reservados.</p>
+            <p>Gracias por visitarnos.</p>
+            <a href="https://www.facebook.com/kelvin.zacarias.7" target="_blank">Facebook</a>
+        </footer>
+    </body>
+</html>

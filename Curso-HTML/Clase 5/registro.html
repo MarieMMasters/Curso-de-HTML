@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Clase 5</title>
+    </head>
+    <body>
+        <div>
+            <h1>Formulario de informacion general</h1>
+            <p>Por favor rellene la informacion solicitada:</p>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" placeholder="Escribe tu nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" type="text" placeholder="Escribe tu apellido">
+            <br>
+            <label for="correo">Correo</label>
+            <input id="correo" type="email" placeholder="Escribe tu correo xx@xx.com">
+            <br>
+            <label for="edad">Edad</label>
+            <input id="edad" type="number" placeholder="Escribe tu edad">
+            <br>
+            <label for="fecha">Fecha</label>
+            <input id="fecha" type="date">
+        </div>
+        <div>
+            <p>Selecciona tu genero por favor:</p>
+            <input type="radio" id="opcion1" name="grupo" value="Masculino">
+            <label for="opcion1">Masculino</label>
+            <br>
+            <input type="radio" id="opcion2" name="grupo" value="Femenino">
+            <label for="opcion2">Femenino</label>
+            <br>
+            <input type="radio" id="opcion3" name="grupo" value="No Decirlo">
+            <label for="opcion3">Prefiero no decirlo</label>
+        </div>
+        <div>
+            <p>Selecciona tus tecnologias favoritas</p>
+            <input type="checkbox" id="opcion1" name="grupo2" value="html">
+            <label for="opcion1">HTML</label>
+            <input type="checkbox" id="opcion2" name="grupo2" value="CSS">
+            <label for="opcion2">CSS</label>
+            <input type="checkbox" id="opcion3" name="grupo2" value="JavaScript">
+            <label for="opcion3">JavaScript</label>
+            <input type="checkbox" id="opcion4" name="grupo2" value="Linux">
+            <label for="opcion4">Linux</label>
+            <input type="checkbox" id="opcion5" name="grupo2" value="Python">
+            <label for="opcion5">Python</label>
+        </div>
+        <div>
+            <p>Selecciona tu pais:</p>
+            <select>
+                <option>El Salvador</option>
+                <option>Guatemala</option>
+                <option>Honduras</option>
+                <option>Nicaragua</option>
+                <option>Mexico</option>
+            </select>
+            <p>Cuentanos sobre ti:</p>
+            <textarea></textarea>
+            <br> <br>
+            <button>Enviar Registro</button>
+        </div>
+    </body>
+</html>
