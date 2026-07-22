@@ -131,3 +131,95 @@ footer{
     background-color: rgb(5, 5, 100);
     color: white;
 }
+
+@media (max-width:768px){
+
+main{
+    width:95%;
+}
+
+nav{
+    flex-direction:column;
+    align-items:center;
+}
+
+.Galeria{
+    grid-template-columns:1fr;
+}
+
+.perfil{
+    width:180px;
+    height:180px;
+}
+
+}
+
+.card{
+
+transition:
+
+transform .3s ease,
+
+box-shadow .3s ease;
+
+}
+
+.card:hover{
+
+transform:
+
+translateY(-8px);
+
+box-shadow:
+
+0 8px 20px rgba(0,0,0,.2);
+
+}
+
+@keyframes aparecer{
+
+from{
+
+opacity:0;
+
+transform:translateY(-20px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+header{
+
+animation:
+
+aparecer
+
+1s
+
+ease;
+
+}
+
+.boton{
+
+transition:
+
+background .3s ease,
+
+transform .3s ease;
+
+}
+
+.boton:hover{
+
+transform:scale(1.05);
+
+}
